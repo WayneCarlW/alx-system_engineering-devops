@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($WATER#$WATER + $STIR#$STIR)) | bc
+echo "$WATER + $STIR" | bc
